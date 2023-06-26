@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw;
+}
+
+.categoria {
+    border: 1PX SOLID BLACK;
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+    font-size: 14px;
+    border-radius: 20PX;
+    padding: 5px 0;
+}
+
+.ciencias {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.opcoes {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+}
+
+.op {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+.opcao {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.op:hover {
+    background: #8000FF;
+    
+    color: aliceblue;
+}
+
+.icones{
+    padding: 15px 20px;
+}
+
+.ideia{
+    background-image: url(./img/ideia.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.perg{
+    margin: 20px;
+    background-image: url(./img/perg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seta{
+    background-image: url(./img/seta.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ideia:hover{
+    background-image: url(./img/ideiapos.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.perg:hover{
+    background-image: url(./img/pergpos.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seta:hover{
+    background-image: url(./img/setapos.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
